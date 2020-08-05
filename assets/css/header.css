@@ -1,0 +1,94 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonGroup {
+    display: flex;
+}
+
+.buttonGroup__button {
+    font: Bold calc(10px + 0.417vw)/calc(10px + 0.729vw) Segoe UI;
+    letter-spacing: 0px;
+    padding: 0.859vw 1.188vw;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin: 0 10px;
+    min-width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonGroup__button_blueBg {
+    background: #2873EB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #2873EB66;
+    border-radius: 39px;
+    color: #FFFFFF;
+}
+
+.buttonGroup__button_whiteBg {
+    border: 2px solid #2873EB;
+    border-radius: 39px;
+    color: #2873EB;
+    background-color: transparent;
+}
+
+.search__input {
+    width: calc(100px + 8.333vw);
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    border-radius: 5px 0 0 5px;
+    padding: 15px 0;
+    padding-left: 15px;
+    border: none;
+}
+
+.search__input::placeholder {
+    letter-spacing: 0px;
+    color: #000;
+    font-size: calc(10px + 0.417vw);
+    line-height: calc(10px + 0.729vw);
+}
+
+.search__button {
+    font: Bold calc(10px + 0.417vw)/calc(10px + 0.729vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #FFF;
+    background: #2873EB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #2873EB4C;
+    border-radius: 39px;
+    border: none;
+    padding: 13px;
+}
+
+.search > div {
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1090px) {
+   .buttonGroup {
+        margin-top: 25px;
+    }
+
+    .buttonGroup__button_black:first-child {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .buttonGroup > .buttonGroup__button_blueBg:first-child {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,101 @@
+.black-background {
+    background: #23282d;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+  display: flex;
+  height: auto;
+  padding: 45px 5.417vw 45px 5.417vw;
+  background: white;
+  margin-left: 7.031vw;
+  margin-top: 1.719vw;
+  height: auto;
+}
+
+.addEmailTemplate {
+    padding: 10.188vw calc(20px + 1.042vw) calc(20px + 1.042vw) 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.addEmailTemplate__heading {
+    font: Bold calc(20px + 0.521vw)/calc(33px + 0.521vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+.cross {
+    width: 108px;
+    height: 108px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross > div {
+    width: 12px;
+    height: 54px;
+    background-color: #2873EB;
+    border-radius: 5px;
+}
+
+.cross > div:first-child {
+    position: absolute;
+    top: 28px;
+}
+
+.cross > div:last-child {
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.formItem {
+    margin: 30px 0;
+}
+
+.formItem__square {
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 20px;
+    background-color: #fff;
+    width: calc(180px + 5.208vw);
+    height: calc(5.208vw + 171px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formItem__title {
+    font: Bold calc(10px + 0.781vw)/calc(10px + 1.198vw) Segoe UI;
+    padding: 15px 0;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+.squares__square {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 20px;
+    width: calc(180px + 5.208vw);
+    height: calc(5.208vw + 171px);
+    margin: 20px 2.083vw;
+}
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.squares > div {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .squares > div {
+        flex-direction: column;
+    }
+}

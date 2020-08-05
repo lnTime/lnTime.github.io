@@ -1,0 +1,165 @@
+.black-background {
+    background: #23282d;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+  display: flex;
+  height: auto;
+  padding: 45px 5.417vw 45px 0;
+  background: white;
+  margin-left: 7.031vw;
+  margin-top: 1.719vw;
+}
+
+.formAndTable {
+    display: flex;
+}
+
+.table {
+    margin-top: 0;
+    margin-left: 25px;
+    min-width: 0;
+    height: 100%;
+}
+
+.form {
+    padding: 1.927vw 5.625vw;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories {
+    padding: 17.188vw calc(20px + 1.042vw) calc(20px + 1.042vw) 0;
+}
+
+.categories__title {
+    font: Bold calc(20px + 1.042vw)/calc(20px + 1.719vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+    padding-left: 5.625vw;
+}
+
+.form__title {
+    font: Bold calc(10px + 0.521vw)/calc(10px + 0.700vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+}
+
+.formItem__title {
+    letter-spacing: 0px;
+    color: #000;
+    font-size: calc(10px + 0.260vw);
+    line-height: calc(10px + 0.521vw);   
+    width: calc(87px + 15.625vw);
+    min-width: 180px;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.formItem__input {
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    padding: 12px 20px;
+    width: calc(87px + 15.625vw);
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: calc(10px + 0.521vw);
+    font-size: calc(17px + 0.521vw);
+    border: none;
+    min-width: 180px;
+
+}
+
+.form__title {
+    padding: 1.927vw 0 3.333vw 0;
+}
+
+.formItem__textarea {
+    width: calc(87px + 15.625vw);
+    height: 169px;
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 21px;
+    min-width: 180px;
+}
+
+.formItem__input, .formItem__textarea {
+    margin-top: 10px;
+}
+
+.formItem__textarea::placeholder {
+    letter-spacing: 0px;
+    color: #000;
+    font-size: calc(10px + 0.521vw);
+    line-height: calc(17px + 0.521vw);
+}
+
+.form__submit {
+    font: Bold calc(5px + 0.260vw + 0.417vw)/calc(7px + 0.365vw + 0.521vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #FFF;
+    background: #2873EB 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: calc(7.813vw + 66px);
+    padding: 15px 20px;
+    border: none;
+    min-width: 180px;
+
+}
+
+.table__data {
+    display: flex;
+    justify-content: center;
+}
+
+.table__data:first-child, 
+.table__head:first-child, 
+.table__data:nth-child(5),
+.table__head:nth-child(5) {
+    width: 80px;
+}
+
+.table__data:nth-child(2),
+.table__head:nth-child(2) {
+    width: 120px;
+}
+
+.table__data:nth-child(3),
+.table__head:nth-child(3) {
+    width: 110px;
+}
+
+.table__data:nth-child(4),
+.table__head:nth-child(4) 
+.table__data:nth-child(6),
+.table__head:nth-child(6) {
+    width: 200px;
+}
+
+.table__row {
+    width: 840px;
+    min-width: 0;
+}
+
+.categories, .formAndTable {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .formAndTable {
+        flex-direction: column;
+    }    
+
+    .table {
+        margin-top: 70px;
+    }
+}

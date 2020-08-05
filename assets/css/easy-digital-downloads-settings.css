@@ -1,0 +1,84 @@
+.easy-digital-downloads-settings {
+  padding-left: 39px;
+  width: 100%;
+}
+.select {
+  margin-right: 31px;
+}
+.buttonsBlock_right {
+  margin-left: auto;
+}
+.bundle-advertising {
+  /* width: 1130px; */
+  height: 169px;
+  bottom: 8px;
+  text-align: left;
+  font: Light 62px/83px Segoe UI;
+  letter-spacing: 0px;
+  background: #f6f6f6;
+}
+.easy-icons-wrapper {
+  display: flex;
+}
+
+.cross {
+  width: 60px;
+  height: 60px;
+  background: #B5CAEC 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross > div {
+  width: 6px;
+  height: 28px;
+  background-color: #2873EB;
+}
+
+.cross > div:first-child {
+  position: absolute;
+  top: 17px;
+}
+
+.cross > div:last-child {
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+
+/* MEDIA SCREEN */
+
+@media screen and (max-width: 782px) {
+  .easy-icons-wrapper {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .easy-digital-downloads-settings{
+    padding-left: 0;
+  }
+  .select__select{
+    margin-bottom: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 1075px) {
+  .subForm {
+      width: 100%;
+  }
+
+  .aside_left {
+      display: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .easy-icons-wrapper{
+    margin-top: 10px;
+  }
+}
+

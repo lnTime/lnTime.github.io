@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/inputs.css">
+    <link rel="stylesheet" href="./assets/css/table.css">
+    <link rel="stylesheet" href="./assets/css/categories.css">
+    <link rel="stylesheet" href="./assets/css/checkbox.css">
+</head>
+<body>
+    <div class='black-background'>
+        <div class="content">
+            <div class="categories">
+                <div class="categories__title">Categories</div>
+                <div class="formAndTable">
+                    <form class="form">
+                        <span class="form__title">Add New Category</span>
+                        <div class="formItem">
+                            <span class="formItem__title">The name is how it appears on your site.</span>
+                            <input type="text" placeholder="Name" class="formItem__input">
+                        </div>
+                        <div class="formItem">
+                            <span class="formItem__title">The “slug” is the URL-friendly 
+                                version of the name. It is usually all lowercase and 
+                                contains only letters, numbers, and hyphens.</span>
+                            <input type="text" placeholder="Slug" class="formItem__input">
+                        </div>
+                        <div class="formItem">
+                            <span class="formItem__title">Assign a parent term to create a hierarchy. 
+                                The term Jazz, for example, would be the parent of Bebop and Big Band.</span>
+                            <select class="select__select">
+                                <option value="0">None</option>
+                                <option value="1">Rule 1</option>
+                                <option value="2">Rule 2</option>
+                            </select>
+                        </div>
+                        <div class="formItem">
+                            <span class="formItem__title">The description is not prominent by 
+                                default; however, some themes may show it.</span>
+                            <textarea placeholder="Description" class="formItem__textarea"></textarea>        
+                        </div>
+                        <button class="form__submit">Add New Categories</button>
+                    </form>
+                    <div class="table">
+                        <div class="table__row">
+                            <div class="table__head">
+                                <div class="head__square">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="table__head">
+                                Name
+                            </div>
+                            <div class="table__head">
+                                Slug
+                            </div>
+                            <div class="table__head">
+                                Description
+                            </div>
+                            <div class="table__head">
+                                Count
+                            </div>
+                            <div class="table__head">
+                                Actions
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__data">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="checkbox" />
+                                    <label class="checkboxLabel" for="checkbox"></label>
+                                </div>
+                            </div>
+                            <div class="table__data">Lorem Ipsum</div>
+                            <div class="table__data">Ipsum Lorem</div>
+                            <div class="table__data">There are many varia...</div>
+                            <div class="table__data">3</div>
+                            <div class="table__data table__data_icons">
+                                <div class="icon icon_blue">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_blue">
+                                    <img
+                                        widdiv="45" 
+                                        height="45"
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_pink">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="table__row">
+                            <div class="table__data">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="checkbox" />
+                                    <label class="checkboxLabel" for="checkbox"></label>
+                                </div>
+                            </div>
+                            <div class="table__data">Gamificetions</div>
+                            <div class="table__data">Lorem</div>
+                            <div class="table__data">It is a long establish..</div>
+                            <div class="table__data">0</div>
+                            <div class="table__data table__data_icons">
+                                <div class="icon icon_blue">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_blue">
+                                    <img
+                                        widdiv="45" 
+                                        height="45"
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_pink">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="table__row table__row_active">
+                            <div class="table__data">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="checkbox" checked="checked" />
+                                    <label class="checkboxLabel" for="checkbox"></label>
+                                </div>
+                            </div>
+                            <div class="table__data">Name 01</div>
+                            <div class="table__data">Gamification</div>
+                            <div class="table__data">It is a long establish..</div>
+                            <div class="table__data">5</div>
+                            <div class="table__data table__data_icons">
+                                <div class="icon icon_blue">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_blue">
+                                    <img
+                                        widdiv="45" 
+                                        height="45"
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_pink">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="table__row">
+                            <div class="table__data">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="checkbox" />
+                                    <label class="checkboxLabel" for="checkbox"></label>
+                                </div>
+                            </div>
+                            <div class="table__data">ipsum Lorem</div>
+                            <div class="table__data">Name 05</div>
+                            <div class="table__data">There are many varia...</div>
+                            <div class="table__data">10</div>
+                            <div class="table__data table__data_icons">
+                                <div class="icon icon_blue">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_blue">
+                                    <img
+                                        widdiv="45" 
+                                        height="45"
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        alt="Recycle Bin" />
+                                </div>
+                                <div class="icon icon_pink">
+                                    <img 
+                                        src="./assets/icons/recycle-bin.svg" 
+                                        widdiv="45"
+                                        height="45"
+                                        alt="Recycle Bin" />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="pagination">
+                            <span class="pagination__page">1-10 of 20</span>
+                            <span class="pagination__arrowLeft"><</span>
+                            <span class="pagination__arrowRight">></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

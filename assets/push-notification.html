@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Push Notification</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/bundle-adversting.css">
+    <link rel="stylesheet" href="./assets/css/inputs.css">
+    <link rel="stylesheet" href="./assets/css/push-notification.css">
+</head>
+<body>
+    <div class='black-background'>
+        <div class="content">
+            <div class="pushNotification">
+                <span class="pushNotification__heading">Push Notification</span>
+                <span class="pushNotification__subHeading">Settings</span>
+                <div class="sections">
+                    <div class="sections__section sections__section_active">Send Push</div>
+                    <div class="sections__section">Subscribers</div>
+                    <div class="sections__section">Compaigns</div>
+                </div>
+                <div class="flex">
+                    <div class="form">
+                        <div class="formItem">
+                            <div class="formItem__title">List of recipients:</div>
+                            <select class="select__select">
+                                <option value="">Push Notifications</option>
+                                <option value="1">rule 1</option>
+                                <option value="2">rule 2</option>
+                            </select>
+                        </div>
+    
+                        <div class="formItem">
+                            <div class="formItem__title">Title:</div>
+                            <input type="text" value="Hi, it's a title" class="formItem__input">
+                        </div>
+    
+                        <div class="formItem">
+                            <div class="formItem__title">Text:</div>
+                            <textarea class="formItem__textarea">Your message content</textarea>
+                        </div>
+    
+                        <div class="formItem">
+                            <div class="formItem__title">Custom URL:</div>
+                            <input type="text" value="https://sygnoos.in/wp/12" class="formItem__input">
+                        </div>
+    
+                        <div class="formItem formItem_centered">
+                            <div class="formItem__title">Icon:</div>
+                            <img src="./assets/images/notification.png" alt="Notification icon">
+                            <div class="icons__item icons_blue">
+                                <img src="./assets/icons/cloud.svg" alt="Cloud icon">
+                            </div>
+                        </div>
+                        <button class="form__submit">Send</button>
+                    </div>
+                    <div class="pushNotification__image">
+                        <div class="image">
+                            <span class="image__text">Chrome, Windows</span>
+                            <div>
+                                <img src="./assets/images/notification.png" />
+                                <div>
+                                    <span class="image__title">Hi, it's a title</span>
+                                    <span class="image__content">Your message content</span>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <span class="image__text">Chrome, Windows</span>
+                            <img src="./assets/images/messanger.png" 
+                            class="image__messanger"
+                            alt="Messanger Icon">
+                        </div>
+                        <div class="image">
+                            <span class="image__text">Chrome, Windows</span>
+                            <img 
+                                src="./assets/images/chrome-messanger.png" 
+                                class="icon__messanger_chrome"
+                                alt="Chrome Messanger icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+.selects {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.selects_first {
+  margin-top: 34px;
+}
+
+.select__text {
+  display: flex;
+  align-items: center;
+}
+
+.select_margined {
+  margin-left: 31px;
+}
+
+.select__text > span {
+  /* TODO: font-family: Bold Segoe UI; */
+  letter-spacing: 0px;
+  color: #000;
+  font-size: 20px;
+  line-height: 27px;
+}
+.slect-icon-wrapper{
+  display: flex;
+}
+.select__select {
+  height: 60px;
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(0.521vw + 10px);
+  line-height: calc(17px + 0.521vw);
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
+  padding-top: 13px;
+  padding-bottom: 19px;
+  padding-left: 1.094vw;
+  padding-right: 1.094vw;
+  width: 16.667vw;
+  min-width: 200px;
+  margin-top: 17px;
+  background-image: url(../icons/down.png);
+  background-repeat: no-repeat;
+  background-position-x: 95.1%;
+  background-position-y: 22px;
+}
+.cross {
+  font-size: 10px;
+  font-weight: bolder;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+.select__select_mini {
+  width: 162px;
+  background-position-x: 91.1%;
+  background-position-y: 22px;
+}
+.select__pages {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 121px;
+  margin-right: 6px;
+  height: 31px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+}
+.select__pages_wrap {
+  height: 60px;
+  display: flex;
+  margin-left: 31px;
+  background-image: none;
+}
+.page-button__span {
+  text-align: left;
+  font: Bold 15px/20px Segoe UI;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.select__select:focus {
+  outline: none;
+}
+
+.question-mark {
+  letter-spacing: 0px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000;
+  text-shadow: 0px 0px 6px #00000080;
+  background: #c6c6c6 0% 0% no-repeat padding-box;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7px;
+  font-weight: bolder;
+}
+.icons__item {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #b5caec;
+  margin-left: 11px;
+}
+.icons_pink {
+  align-self: flex-end;
+  background: #ffcece;
+}
+.icons_gray {
+  align-self: flex-end;
+  background: #c7c7c7;
+}
+.icons_blue{
+  align-self: flex-end;
+}
+
+.control__radio {
+  height: 30px;
+}
+
+.control__radio .control__indicator {
+  border-radius: 50%;
+}
+
+.control__radio .control__indicator:after {
+  left: 7px;
+  top: 7px;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background: #2873eb;
+  transition: background 250ms;
+}
+.control__radio input:disabled ~ .control__indicator:after {
+  background: #7b7b7b;
+}
+  

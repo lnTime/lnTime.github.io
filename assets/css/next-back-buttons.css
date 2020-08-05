@@ -1,0 +1,28 @@
+.buttonsBlock {
+  width: max-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttonsBlock__button {
+  cursor: pointer;
+  margin:0 7.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background: white;
+  width: 63px;
+  height: 34px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  opacity: 1;
+}
+.button__arrow-icon {
+  width: 8px;
+  height: 8px;
+}
+.span_button-text {
+  margin-bottom: 4px;
+  margin-left: 2px;
+  margin-right: 2px;
+}

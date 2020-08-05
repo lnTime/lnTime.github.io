@@ -1,0 +1,322 @@
+.countdownOptions {
+  padding-left: 1.719vw;
+  width: auto;
+}
+.content {
+  padding-right: 0;
+}
+.countdownOptions__heading {
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(15px + 1.302vw);
+  line-height: calc(15px + 1.979vw);
+  font-weight: bolder;
+  transform: translateY(-14px);
+  display: flex;
+}
+.timerSection {
+  width: 71%;
+  max-width: 590px;
+  padding: 1.25vw 1.094vw 1.51vw 1.094vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 0px 30px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  margin-top: 44px;
+  margin-bottom: 1.667vw;
+}
+.timerSection__img {
+  width: 100%;
+}
+.timerSection__button {
+  font-size: calc(10px + 0.521vw);
+  margin-bottom: 16px;
+  width: 145px;
+  height: 40px;
+  border-radius: 27px;
+  border: none;
+  color: black;
+  background: #f0f0f0;
+  outline: none;
+  font-weight: bolder;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blackEye {
+  margin-right: 5px;
+}
+.subFormItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  width: max-content;
+  position: relative;
+  margin-top: 15px;
+}
+.subFormItem__Title {
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  font-weight: bolder;
+}
+.colorPicker {
+  position: relative;
+}
+.colorPicker__input {
+  opacity: 0;
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 30px;
+  top: 5px;
+}
+.colorPicker__cycle {
+  width: 48px;
+  height: 48px;
+  background: #000 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #0000004c;
+  border-radius: 50%;
+}
+.colorPicker__cycle_gray {
+  background: #cccccc;
+}
+.unhideColorPicker {
+  display: flex;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin-left: 20px;
+  padding-right: 40px;
+}
+.colorPickerInformation {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  justify-content: center;
+}
+.colorPickerInformation__title {
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(7px + 0.417vw);
+  line-height: calc(10px + 0.521vw);
+}
+.colorPickerInformation__value {
+  font: Regular 15px/20px Segoe UI;
+  letter-spacing: 0px;
+  color: #757575;
+  font-size: 15px;
+  line-height: 20px;
+}
+.control__indicator {
+  margin-left: 15px;
+}
+.subForm {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 19px 32px;
+}
+.subFormItem__input {
+  height: 60px;
+  padding: 17px 88px 16px 20px;
+  letter-spacing: 0px;
+  color: #000;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 17px;
+  width: 15.052vw;
+  min-width: 170px;
+  max-width: 300px;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(17px + 0.521vw);
+  padding-right: 0;
+}
+.hiddenInput {
+  height: 60px;
+  position: absolute;
+  right: 20px;
+  z-index: 9;
+  opacity: 0;
+}
+.calWrapper {
+  display: none;
+  width: 48px;
+  height: 48px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #00000029;
+  position: absolute;
+  border-radius: 50%;
+  right: 20px;
+  display: flex;
+  top: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.dayPosition__wrapper {
+  margin-left: 18px;
+}
+
+.dayPosition {
+  display: flex;
+  align-items: baseline;
+}
+.formItem__direction {
+  text-align: left;
+  font: 15px/20px Segoe UI Regular;
+  letter-spacing: 0px;
+  color: #757575;
+}
+.inputPxWrapper {
+  display: flex;
+  margin: 0 10px 20px 10px;
+}
+.formItem__input {
+  height: 60px;
+  border: none;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  margin-left: 18px;
+  width: calc(20px + 2.24vw);
+  min-width: 50px;
+  padding: 0.833vw 0.729vw;
+}
+.formItem__inputValueType {
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  padding-right: 10px;
+  height: 60px;
+  width: 40px;
+}
+.formItem__input {
+  width: 8.854vw;
+}
+.formItem {
+  display: flex;
+  align-items: center;
+  margin: 41px 0;
+}
+
+.formItem__Title {
+  letter-spacing: 0px;
+  color: #000;
+  font-size: 20px;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  font-weight: bolder;
+}
+.onOffswitch {
+  margin-left: 22px;
+}
+.buttonsBlock_right {
+  margin-left: auto;
+}
+.formItem_left {
+  margin-right: 40px;
+  display: flex;
+  align-items: baseline;
+}
+.titleQuestionWrapper {
+  display: flex;
+}
+.select__select {
+  margin-left: 20px;
+}
+
+/* MEDIA SCREEN */
+@media only screen and (max-width: 1210px) {
+  .formItem__input {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .subForm {
+    width: 100%;
+  }
+  .aside_left {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .timerSection__button {
+    width: 100px;
+    height: 30px;
+  }
+  .menuIcon {
+    top: 5px;
+  }
+  .subFormItem_column {
+    flex-direction: column;
+  }
+  .dayPosition {
+    flex-direction: column;
+  }
+  .subFormItem__Title {
+    margin-bottom: 7px;
+  }
+  .formItem_left {
+    flex-direction: column;
+  }
+  .select__select {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .inputPxWrapper {
+    margin: 5px 0;
+  }
+  .formItem__input {
+    padding: 10px;
+  }
+}
+/* @media only screen and (max-width: 1110px) {
+    .formItem_aligne_bottom {
+      flex-direction: column;
+    }
+    .dayPosition__wrapper{
+      margin-top: 20px;
+    }
+    .close-settings{
+      padding-left: 0;
+    }
+    .box__aside_left{
+        width: 355px;
+    }
+  } */
+/* @media only screen and (max-width: 400px){
+    .inputPxWrapper{
+      margin: 0 10px 20px -10px;
+    }
+    .subFormItem__input{
+      margin: 10px 0;
+  
+    }
+    .buttonPosition__wrapper{
+      margin-left: 0;
+    }
+    .subFormItem{
+      flex-direction: column;
+      flex-wrap: initial;
+    }
+    .subFormItem > *{
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  } */

@@ -1,0 +1,205 @@
+.close-settings {
+  padding-left: 39px;
+  width: 100%;
+}
+.formItem {
+  display: flex;
+  align-items: center;
+  margin: 41px 0;
+}
+
+.formItem__Title {
+  letter-spacing: 0px;
+  color: #000;
+  font-size: 20px;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  font-weight: bolder;
+}
+.onOffswitch {
+  margin-left: 22px;
+}
+
+.subForm {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 19px 32px;
+}
+.subFormItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.subFormItem__Title {
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+}
+
+.subFormItem__input {
+  height: 60px;
+  padding: 17px 88px 16px 20px;
+  letter-spacing: 0px;
+  color: #000;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 7px;
+  width: 15.052vw;
+  min-width: 150px;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(17px + 0.521vw);
+  padding-right: 0;
+}
+.formItem_aligne_bottom {
+  align-items: baseline;
+}
+.formItem__input {
+  height: 60px;
+  border: none;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px 0 0 5px;
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  margin-left: 18px;
+  width: calc(20px + 2.24vw);
+  padding: 0.833vw 0.729vw;
+}
+.formItem__inputValueType {
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0px;
+  color: #000;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  padding-right: 10px;
+  height: 60px;
+  width: 40px;
+}
+.buttonPosition {
+  display: flex;
+  align-items: baseline;
+}
+.formItem__direction {
+  text-align: left;
+  font: 15px/20px Segoe UI Regular;
+  letter-spacing: 0px;
+  color: #757575;
+}
+.inputPxWrapper {
+  display: flex;
+  margin: 0 10px 20px 10px;
+}
+.buttonPosition__wrapper {
+  margin-left: 18px;
+}
+.subFormItem__x {
+  margin-left: 22px;
+  width: 96px;
+  height: 95px;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blackRound {
+  width: 82px;
+  height: 82px;
+  background: var(--unnamed-color-000000) 0% 0% no-repeat padding-box;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.easy-icons-wrapper {
+  margin-left: 18px;
+}
+.icons__item {
+  width: 45px !important;
+  margin: 4px;
+  height: 45px !important;
+}
+.icons__item img {
+  width: 50px;
+  height: 50px;
+}
+.buttonsBlock_right {
+  margin-left: auto;
+}
+.bundle-advertising {
+  height: 169px;
+  bottom: 8px;
+  text-align: left;
+  font: Light 62px/83px Segoe UI;
+  letter-spacing: 0px;
+  background: #f6f6f6;
+}
+.marginLeft0 {
+  margin-left: 0;
+}
+
+.closeIcon {
+  top: 25px;
+  right: 25px;
+  left: 25px;
+  bottom: 25px;
+  opacity: 1;
+}
+
+.closeIcon::after, .closeIcon::before {
+  width: 4px;
+}
+
+/* MEDIA SCREEN */
+
+@media only screen and (max-width: 1000px) {
+  .subForm {
+    width: 100%;
+  }
+  .aside_left {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .formItem_aligne_bottom {
+    flex-direction: column;
+  }
+  .buttonPosition__wrapper{
+    margin-top: 20px;
+  }
+  .close-settings{
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 400px){
+  .inputPxWrapper{
+    margin: 0 10px 20px -10px;
+  }
+  .subFormItem__input{
+    margin: 10px 0;
+
+  }
+  .buttonPosition__wrapper{
+    margin-left: 0;
+  }
+  .subFormItem{
+    flex-direction: column;
+    flex-wrap: initial;
+  }
+  .subFormItem > *{
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}

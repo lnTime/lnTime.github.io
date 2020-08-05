@@ -1,0 +1,138 @@
+.black-background {
+    background: #23282d;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+  display: flex;
+  height: auto;
+  padding: 45px 5.417vw 45px 5.417vw;
+  background: white;
+  margin-left: 7.031vw;
+  margin-top: 1.719vw;
+}
+
+.subscription {
+    padding: 10.188vw calc(20px + 1.042vw) calc(20px + 1.042vw) 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription__heading {
+    font: Bold calc(20px + 0.521vw)/calc(33px + 0.521vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.subscription, .form {
+    width: 100%;
+}
+
+.select {
+    display: flex;
+}
+
+.select__select {
+    margin-top: 0;
+}
+
+.buttonGroup__button_unrounded {
+    margin: 0;
+    border-radius: 5px;
+}
+
+.select__select:nth-child(even) {
+    margin: 0 20px;
+}
+
+.selectGroup {
+    display: flex;
+}
+
+.info {
+    padding: 3.125vw 0;
+}
+
+.table__data:first-child, 
+.table__head:first-child {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.table__data:nth-child(2),
+.table__head:nth-child(2) {
+    width: 80px;
+}
+
+.table__data:nth-child(3),
+.table__head:nth-child(3),
+.table__data:nth-child(4),
+.table__head:nth-child(4) {
+    width: 135px;
+}
+
+
+.table__data:nth-child(6),
+.table__head:nth-child(6) {
+    width: 170px;
+}
+
+.table__data:nth-child(5),
+.table__head:nth-child(5) {
+    width: 180px;
+    width: 207px;
+}
+
+.table__data:nth-child(7),
+.table__head:nth-child(7) {
+    width: 125px;
+}
+
+.table__data:nth-child(8),
+.table__head:nth-child(8) {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.table__data:nth-child(9),
+.table__head:nth-child(9) {
+    width: 125px;
+    justify-content: center;
+}
+
+.buttonGroup__button_black {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: transparent;
+    letter-spacing: 0px;
+    color: #000;
+    font-size: calc(10px + 0.521vw);
+    line-height: calc(17px + 0.521vw);
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 920px) {
+    .selectGroup {
+        flex-direction: column;
+    }
+
+    .select__select:nth-child(even) {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search {
+        padding: 10px 0;
+    }
+}

@@ -1,0 +1,95 @@
+.black-background, .content {
+    height: auto;
+}
+
+.allEmailTemplates, .form {
+    width: 100%;
+}
+
+.allEmailTemplates {
+    display: flex;
+    flex-direction: column;
+}
+
+.allEmailTemplates__heading {
+    font: Bold calc(20px + 0.521vw)/calc(33px + 0.521vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+    padding: 2.292vw 0;
+}
+
+.buttonGroup__button_blueBg {
+    margin-left: 0;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+}
+
+.select__select {
+    margin-top: 0;
+}
+
+.buttonGroup__button_unrounded {
+    border-radius: 5px;
+    height: 100%;
+    margin: 0;
+    height: 60px;
+}
+
+.selectGroup {
+    padding: 2.083vw 0;
+    display: flex;  
+}
+
+.select:last-child {
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttonGroup {
+    align-items: center;
+}
+
+.buttonGroup__button_black {
+    border-radius: 29px;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+}
+
+.table__data:first-child,
+.table__head:first-child {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.table__data:nth-child(2),
+.table__head:nth-child(2) {
+    width: 110px;
+}
+
+.table__data:nth-child(3),
+.table__head:nth-child(3) {
+    width: 200px;
+}
+
+.table__row {
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 660px) {
+    .selectGroup {
+        flex-direction: column;
+    }
+
+    .select:last-child {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

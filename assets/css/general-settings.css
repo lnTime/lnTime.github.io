@@ -1,0 +1,57 @@
+.black-background,
+.content {
+  height: auto;
+}
+.generalSettings {
+  width: 100%;
+}
+.generalSettings__heading {
+  font: Bold calc(1.042vw + 25px) / calc(25px + 1.719vw) Segoe UI;
+  letter-spacing: 0px;
+  color: #000;
+}
+.formItem {
+  display: flex;
+  align-items: center;
+  margin: 41px 0;
+}
+.formItem__Title {
+  letter-spacing: 0px;
+  color: #000;
+  font-size: 20px;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(10px + 0.885vw);
+  font-weight: bolder;
+}
+.onOffswitch {
+  margin-left: 22px;
+}
+.formItem__input {
+  width: calc(120px + 10.417vw);
+  border: none;
+  padding: 10px 15px;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  height: 60px;
+  margin-left: 22px;
+}
+.saveCHangeButton {
+  width: 187px;
+  height: 60px;
+  background: #2873eb 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+  font: Bold 18px/24px Segoe UI;
+}
+@media only screen and (max-width: 450px) {
+  .formItem_column {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .formItem__input {
+    margin-left: 0;
+    margin-top: 7px;
+  }
+}
