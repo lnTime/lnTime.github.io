@@ -93,16 +93,19 @@
 .table__data:nth-child(2), .table__head:nth-child(2) {
     width: 100px;
 }
-.table__data:nth-child(3), .table__data:nth-child(4), 
+
+.table__head:nth-child(3), 
+.table__data:nth-child(3), 
+.table__data:nth-child(4), 
+.table__head:nth-child(4),
 .table__data:nth-child(5), 
-.table__head:nth-child(3), .table__head:nth-child(4),
 .table__head:nth-child(5) {
     width: 120px;
 }
 
 .table__data:nth-child(7), 
 .table__data:nth-child(7), 
-.table__head:nth-child(8), 
+.table__data:nth-child(8), 
 .table__head:nth-child(8) {
     width: 165px;
 }
@@ -112,6 +115,11 @@
     width: 180px;
 }
 
+.table__data_bordered {
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    height: 42px;
+}
 
 @media only screen and (max-width: 1090px) {
     .info {
