@@ -1,5 +1,6 @@
 .randomPopup {
     padding: 0 2.031vw;
+    width: 100%;
 }
 
 .randomPopup__heading {
@@ -40,4 +41,9 @@
     .black-background, .content {
         height: 100%;
     }
+}
+
+.buttonsBlock_right {
+    margin-left: auto;
+    margin-top: 100px;
 }

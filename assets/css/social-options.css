@@ -5,12 +5,15 @@
 .socialOptions {
     width: 100%;
     padding: 0 2vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .socialOptions__heading {
     font: Bold calc(20px + 1.042vw)/calc(33px + 1.042vw) Segoe UI;
     letter-spacing: 0px;
     color: #000;
+    margin-bottom: 50px;
 }
 
 .contactForm {
