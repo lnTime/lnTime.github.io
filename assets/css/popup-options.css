@@ -1,10 +1,10 @@
 .popupOptions {
-  padding: 0 39px;
+  padding: 0 2.031vw;
   width: 100%;
 }
 
 .popupOptions__heading {
-  font: Bold calc(1.042vw + 20px)/calc(20px + 1.719vw) Segoe UI;
+  font: Bold calc(1.042vw + 20px) / calc(20px + 1.719vw) Segoe UI;
   letter-spacing: 0px;
   color: #000;
 }
@@ -21,11 +21,13 @@
 }
 
 .formItem__title {
-  font: Bold calc(10px + 0.521vw)/calc(10px + 0.885vw) Segoe UI;
+  font: Bold calc(10px + 0.521vw) / calc(10px + 0.885vw) Segoe UI;
   letter-spacing: 0px;
   color: #000;
 }
-
+.formItem__title_margined {
+  width: calc(30px + 11vw);
+}
 .onOffswitch {
   margin-left: 13px;
 }
@@ -72,19 +74,17 @@
   align-items: center;
 }
 
-
-
 .grayFormItem__input {
   padding: 15px 21px;
   border: none;
-  background: #EFEFEF 0% 0% no-repeat padding-box;
+  background: #efefef 0% 0% no-repeat padding-box;
   border-radius: 5px;
   width: calc(72px + 13.021vw);
 }
 
 .grayFormItem__input::placeholder {
   letter-spacing: 0px;
-  color: #C2C2C2;
+  color: #c2c2c2;
   font-size: calc(0.521vw + 10px);
   font-style: italic;
   line-height: calc(0.521vw + 10px);
@@ -97,7 +97,7 @@
 .subFormItem__input {
   padding: calc(7px + 0.221vw) calc(9px + 0.521vw);
   border: none;
-  background: #F1F1F1 0% 0% no-repeat padding-box;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
   border-radius: 5px;
   width: calc(36px + 3.958vw);
 }
@@ -119,17 +119,17 @@
 .musicForm {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .musicFormItem {
   display: flex;
+  margin-left: calc(30px + 11.7vw);
 }
 
 .musicFormItem__input {
   padding: 0.521vw calc(9px + 0.521vw);
   width: calc(102px + 15.625vw);
-  background: #F1F1F1 0% 0% no-repeat padding-box;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
   border-radius: 5px;
   border: none;
   margin-right: 15px;
@@ -153,7 +153,7 @@
 }
 
 .subFormItem__text__rightRounded {
-  background: #F1F1F1 0% 0% no-repeat padding-box;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
   border-radius: 0 5px 5px 0;
   display: flex;
   align-items: center;
@@ -182,19 +182,17 @@
 }
 
 .squares__square {
-  background: #B2C8EC 0% 0% no-repeat padding-box;
+  background: #b2c8ec 0% 0% no-repeat padding-box;
   opacity: 0.4;
   width: 100px;
   height: 100px;
 }
 
-
 .squares__square_active {
-  background: #2873EB 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 10px #2873EB80;
+  background: #2873eb 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #2873eb80;
   opacity: 1;
 }
-
 
 .squares__square_leftRounded {
   border-radius: 5px 0px 0px 5px;
@@ -205,9 +203,9 @@
 }
 
 .formItem_blue {
-  background-color: rgba(178,200,236, 0.17);
+  background-color: rgba(178, 200, 236, 0.17);
   border-radius: 5px;
-  padding: calc(10px + 1.042vw) calc(10px + 1.250vw);
+  padding: calc(10px + 1.042vw) calc(10px + 1.25vw);
 }
 
 .formItem_blue > * {
@@ -215,7 +213,7 @@
 }
 
 .unlockOption {
-  background: #2873EB 0% 0% no-repeat padding-box;
+  background: #2873eb 0% 0% no-repeat padding-box;
   border-radius: 20px;
   opacity: 1;
   display: flex;
@@ -223,8 +221,8 @@
 }
 
 .unlockOption > .icon {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 0px 6px #2873EB80;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 6px #2873eb80;
   border-radius: 20px;
   width: 67px;
   height: 70px;
@@ -234,9 +232,9 @@
 }
 
 .unlockOption__title {
-  font: Bold calc(8px + 0.521vw)/calc(14px + 0.521vw) Segoe UI;
+  font: Bold calc(8px + 0.521vw) / calc(14px + 0.521vw) Segoe UI;
   letter-spacing: 0px;
-  color: #FFF;
+  color: #fff;
   padding: 0 12px;
   display: flex;
   align-items: center;
@@ -245,7 +243,7 @@
 .formItem__input {
   padding: calc(3px + 0.521vw) calc(10px + 0.521vw);
   border: none;
-  background: #F1F1F1 0% 0% no-repeat padding-box;
+  background: #f1f1f1 0% 0% no-repeat padding-box;
   border-radius: 5px;
   width: calc(4.167vw + 150px);
   margin-left: 20px;
@@ -258,22 +256,50 @@
 .disabledButton {
   margin-top: 10vh;
 }
-
+@media only screen and (max-width: 1396px) {
+  .musicFormItem {
+    margin-left: calc(53px + 11.7vw);
+  }
+  .formItem__title_margined {
+    width: calc(40px + 11.7vw);
+  }
+}
+@media only screen and (max-width: 1076px) {
+  .musicFormItem {
+    margin-left: calc(63px + 11.7vw);
+  }
+  .formItem__title_margined {
+    width: calc(50px + 11.7vw);
+  }
+}
+@media only screen and (max-width: 913px) {
+  .musicFormItem {
+    margin-left: calc(85px + 11.7vw);
+  }
+  .formItem__title_margined {
+    width: calc(70px + 11.7vw);
+  }
+}
 @media only screen and (max-width: 1000px) {
   .aside_left {
     display: none;
   }
 
   .menuIcon {
-    display: block; 
+    display: block;
   }
-} 
+}
 
 @media only screen and (max-width: 550px) {
   .popupOptions {
     padding: 0;
   }
-
+  .musicFormItem {
+    margin-left: 10px;
+  }
+  .formItem__title_margined {
+    width: calc(90px + 11.7vw);
+  }
   .content {
     padding: 45px 0 45px 0;
     margin-left: 0;

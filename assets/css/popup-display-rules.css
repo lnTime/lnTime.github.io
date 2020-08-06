@@ -45,8 +45,28 @@
   align-items: flex-end;
 }
 
+.select__title {
+  font: Bold calc(10px + 0.521vw)/calc(17px + 0.521vw) Segoe UI;
+  letter-spacing: 0px;
+  color: #000;
+}
+
 @media screen and (max-width:600px){
     .popup-display-rules{
         padding-left:7px;
     }
+}
+
+
+@media screen and (max-width: 796px) {
+  .select_margined {
+    margin-left: 31px !important;
+  }
+}
+
+
+@media screen and (max-width:658px){
+  .select_margined {
+    margin-left: 0 !important;
+  }
 }

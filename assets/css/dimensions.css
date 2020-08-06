@@ -122,15 +122,34 @@
 }
 
 .minWidth, .maxWidth, .minHeight, .maxHeight {
-    width: 50%;
+    width: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     min-width: 270px;
+}
+.minWidth > .formItem__input, .maxWidth > .formItem__input, .minHeight > .formItem__input, .maxHeight > .formItem__input {
+    margin-left: 1.198vw;
+}
+
+.maxWidth, .maxHeight {
+    margin-left: 1.250vw;
 }
 
 .bottom {
     margin-bottom: 25px;
+}
+
+.formItem:first-child {
+    margin: 1.198vw 0;
+}
+
+.subForm_flex {
+    margin-bottom: 20px;
+}
+
+.formItem_margined {
+    margin: 15px 0 34px 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -150,5 +169,17 @@
 @media only screen and (max-width: 500px) {
     .dimensions {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .bottom, .formItem:last-child {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .maxWidth, .maxHeight {
+        margin-top: 1.250vw;
+        margin-left: 0;
     }
 }

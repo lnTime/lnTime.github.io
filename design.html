@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assets/css/switcher.css">
     <link rel="stylesheet" href="./assets/css/next-back-buttons.css">
     <link rel="stylesheet" href="./assets/css/design.css">
+    <link rel="stylesheet" href="./assets/css/range.css">
     <link rel="stylesheet" href="./assets/css/bundle-adversting.css">
 </head>
 
@@ -117,8 +118,8 @@
                         <div class="formItem__square"></div>
                         <div class="formItem__square"></div>
                     </div>
-                    <div class="formItem">
-                        <span class="formItem__Title">Edit popup overlay:</span>
+                    <div class="formItem formItem_lessMargin">
+                        <span class="formItem__Title ">Enable popup overlay::</span>
                         <div class="onOffswitch">
                             <input type="checkbox" name="onOffswitch" class="onOffswitch-checkbox" id="myonoffswitch-overlay" tabindex="0"
                                 checked>
@@ -149,7 +150,10 @@
                         </div>
                         <div class="subFormItem">
                             <span class="subFormItem__Title">Opasity:</span>
-                            <input type="range" class="subFormItem__range">
+                            <div class="range-wrap">
+                                <div class="range-value" id="rangeV"></div>
+                                <input id="range" type="range" min="0" max="100" value="50" step="1">
+                            </div>                        
                         </div>
                     </div>
                     <div class="formItem formItem_itemsCentered">
@@ -157,7 +161,7 @@
                         <input type="text" class="formItem__input formItem__input_sgpb-popup-overlay" value="sgpb-popup-overlay" />
                         <div class="question-mark">?</div>
                     </div>
-                    <div class="formItem">
+                    <div class="formItem formItem_lessMargin">
                         <span class="formItem__Title">Show background:</span>
                         <div class="onOffswitch">
                             <input type="checkbox" name="onOffswitch" class="onOffswitch-checkbox" id="myonoffswitch" tabindex="0"
@@ -184,7 +188,10 @@
                         </div>
                         <div class="subFormItem">
                             <span class="subFormItem__Title">Opasity:</span>
-                            <input type="range" class="subFormItem__range">
+                            <div class="range-wrap">
+                                <div class="range-value" id="rangeV1"></div>
+                                <input id="range1" type="range" min="0" max="100" value="50" step="1">
+                            </div>   
                         </div>
                         <div class="subFormItem">
                             <span class="subFormItem__Title">Opasity:</span>
@@ -231,6 +238,7 @@
         </div>
     </div>
     <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/range.js"></script>
 </body>
 
 </html>

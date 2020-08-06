@@ -67,7 +67,7 @@
   color: #000;
   font-size: calc(10px + 0.521vw);
   line-height: calc(10px + 0.885vw);
-  margin-left: 18px;
+  /* margin-left: 18px; */
   width: calc(20px + 2.24vw);
   padding: 0.833vw 0.729vw;
 }
@@ -97,7 +97,10 @@
 }
 .inputPxWrapper {
   display: flex;
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 20px 9px;
+}
+.inputPxWrapper_moreMargin {
+  margin: 0 10px 31px 28.5px;
 }
 .buttonPosition__wrapper {
   margin-left: 18px;
@@ -158,7 +161,8 @@
   opacity: 1;
 }
 
-.closeIcon::after, .closeIcon::before {
+.closeIcon::after,
+.closeIcon::before {
   width: 4px;
 }
 
@@ -176,29 +180,28 @@
   .formItem_aligne_bottom {
     flex-direction: column;
   }
-  .buttonPosition__wrapper{
+  .buttonPosition__wrapper {
     margin-top: 20px;
   }
-  .close-settings{
+  .close-settings {
     padding-left: 0;
   }
 }
-@media only screen and (max-width: 400px){
-  .inputPxWrapper{
-    margin: 0 10px 20px -10px;
-  }
-  .subFormItem__input{
+@media only screen and (max-width: 400px) {
+  .subFormItem__input {
     margin: 10px 0;
-
   }
-  .buttonPosition__wrapper{
+  .subForm {
+    padding: 19px 15px;
+  }
+  .buttonPosition__wrapper {
     margin-left: 0;
   }
-  .subFormItem{
+  .subFormItem {
     flex-direction: column;
     flex-wrap: initial;
   }
-  .subFormItem > *{
+  .subFormItem > * {
     margin-left: 0;
     margin-top: 5px;
   }

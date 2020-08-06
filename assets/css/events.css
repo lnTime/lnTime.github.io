@@ -1,5 +1,5 @@
 .black-background, .content {
-    height: 100%;
+    height: auto;
 }
 
 .form, .events, .formItem {
@@ -7,7 +7,7 @@
 }
 
 .events {
-    padding: 0 40px;
+    padding: 0 2.083vw;
 }
 
 .form {
@@ -16,7 +16,6 @@
 
 .formItem {
     display: flex;
-    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -32,9 +31,13 @@
 }
 
 .inputBlock__title {
-    font: Bold calc(1.042vw + 10px)/calc(17px + 1.042vw) Segoe UI;
+    font: Bold calc(0.521vw + 10px)/calc(17px + 0.521vw) Segoe UI;
     letter-spacing: 0px;
     color: #000;
+}
+
+.inputBlock_right {
+    margin-left: calc(0.625vw + 10px);
 }
 
 .cross {
@@ -52,6 +55,7 @@
     width: 6px;
     height: 28px;
     background-color: #2873EB;
+    border-radius: 5px;
 }
 
 .cross > div:first-child {
@@ -101,15 +105,36 @@
     .menuIcon {
         display: block;
     }
+
+    .black-background, .content {
+        height: 100%;
+    }
 }
 
 @media only screen and (max-width: 700px) {
-    .events {
-        padding: 0;
-    }
 
     .content {
         padding: 45px 0 45px 0;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .form > .formItem {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .inputBlock_right {
+        margin: 10px 0;
+    }
+
+    .cross {
+        margin-left: 0;
+    }
+
+    .icons_pink {
+        margin-right: auto;
+        margin-left: 0;
     }
 }
 
@@ -122,5 +147,9 @@
         flex-wrap: wrap;
         justify-content: right;
         padding: 0 10px;
+    }
+
+    .events {
+        padding: 0 1.083vw;
     }
 }
