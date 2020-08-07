@@ -143,7 +143,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.timeRound > div {
+  border: 2px solid;
+  height: 14px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.timeRound > div:last-child {
+  transform: rotate(90deg);
+  right: 16px;
+  bottom: 8px;
+}
+
 .subFormFlex {
   display: flex;
   flex-wrap: wrap;
@@ -176,6 +191,10 @@
 .spanInptutWrapper {
   display: flex;
   align-items: baseline;
+}
+
+.icons__item {
+  font-family: "Glyphter", Arial, Helvetica, sans-serif;
 }
 
 /* MEDIA SCREEN */

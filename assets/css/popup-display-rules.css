@@ -13,36 +13,33 @@
   line-height: 53px;
 }
 
-.crossUp {
+.cross {
+  border-radius: 50%;
+  font-family: "Glyphter", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #2873EB;  
   width: 60px;
   height: 60px;
-  background: #B5CAEC 0% 0% no-repeat padding-box;
-  border-radius: 30px;
-  position: relative;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin-left: 10px;
+  justify-content: center;
+  background: #B5CAEC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 15px #2873EB4C;
+  margin-left: 11px;
 }
 
-.crossUp > div {
-  width: 6px;
-  height: 28px;
-  background-color: #2873EB;
-}
-
-.crossUp > div:first-child {
-  position: absolute;
-  top: 17px;
-}
-
-.crossUp > div:last-child {
-  position: absolute;
-  transform: rotate(90deg);
-}
 
 .slect-icon-wrapper {
   align-items: flex-end;
+}
+
+.icons__item {
+  font-family: "Glyphter", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.icons_pink {
+  color: #C12121;
 }
 
 .select__title {

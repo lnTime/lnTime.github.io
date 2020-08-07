@@ -138,22 +138,6 @@
     margin-left: 22px;
 }
 
-.question-mark {
-    letter-spacing: 0px;
-    font-size: 12px;
-    line-height: 16px;
-    color: #000;
-    text-shadow: 0px 0px 6px #00000080;
-    background: #c6c6c6 0% 0% no-repeat padding-box;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 9px;
-    font-weight: bolder;
-}
 
 .colorPicker {
     position: relative;

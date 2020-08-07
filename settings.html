@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/settings.css">
+    <link rel="stylesheet" href="./assets/css/checkbox.css">
+    <link rel="stylesheet" href="./assets/css/question-mark.css">
+    <title>Settings</title>
+</head>
+
+<body>
+    <div class="settings">
+        <div class="closeIconSub">
+            <div class="x"></div>
+            <div class="y"></div>
+        </div>
+        <h1 class="settings__heading">Settings</h1>
+
+        <div class="subFormItem">
+            <div class="boldSpan">Font Size:</div>
+            <div class="flex">
+                <input type="text" value="1" class="subFormItem__input subFormItem__input_small" />
+                <div class="subFormItem__inputText">Day(s)</div>
+            </div>
+            <div class="question-mark">B</div>
+        </div>
+        <div class="subFormItem">
+            <div class="boldSpan">Page level cookie saving</div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="checkbox1" />
+                <label class="checkboxLabel" for="checkbox1"></label>
+            </div>
+        </div>
+        <div class="subFormItem subFormItem_moreMarginBottom">
+            <div class="boldSpan">Detect exit only from top bar</div>
+            <div class="checkbox-wrapper">
+                <input type="checkbox" id="checkbox" />
+                <label class="checkboxLabel" for="checkbox"></label>
+            </div>
+        </div>
+
+
+
+        <div class="cancelSavebuttonsWrapper">
+            <button class="cancel">Cancel</button>
+            <button class="saveButton">Save</button>
+        </div>
+    </div>
+</body>
+
+</html>

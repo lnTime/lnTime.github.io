@@ -35,6 +35,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 4.646vw;
+    font-family: "Glyphter", Arial, Helvetica, sans-serif;
+    color: #2873EB;
 }
 
 .cross > div {

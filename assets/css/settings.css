@@ -1,0 +1,125 @@
+.settings {
+  font: Bold calc(20px + 1.042vw) / calc(1.532vw + 20px) Segoe UI;
+  text-align: center;
+}
+.settings__heading {
+  font: Bold calc(20px + 1.042vw) / calc(1.532vw + 20px) Segoe UI;
+  text-align: center;
+}
+.x,
+.y {
+  height: 2px;
+  width: 11px;
+  left: 7px;
+  background: white;
+  position: absolute;
+  border-radius: 5px;
+}
+.x {
+  transform: rotate(45deg);
+}
+.y {
+  transform: rotate(-45deg);
+}
+.closeIconSub {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  background: #2873eb 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.settings {
+  position: relative;
+  margin: 4.14vw 14.36vw 10.479vw 11.125vw;
+  padding: 6.727vw 6.21vw 5.175vw;
+  width: 74.515vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 0px 30px rgb(0 0 0 / 20%);
+  border-radius: 16px;
+}
+.cancel,
+.saveButton {
+  width: 25.744vw;
+  height: 7.762vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  font-size: calc(10px + 0.521vw);
+  font-weight: bolder;
+}
+.saveButton {
+  background: #2873eb;
+  color: white;
+  border: none;
+}
+.cancelAddbuttonsWrapper {
+  width: 53.687vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 17px;
+}
+.boldSpan {
+  font: Bold calc(10px + 0.781vw) / calc(10px + 1.198vw) Segoe UI;
+  margin-right: 1.682vw;
+}
+.subFormItem {
+  display: flex;
+  margin-top: 4.269vw;
+  margin-bottom: 3.752vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.boldSpan {
+  font: Bold calc(10px + 0.781vw) / calc(10px + 1.198vw) Segoe UI;
+  margin-right: 1.682vw;
+}
+
+.flex {
+  display: flex;
+}
+.subFormItem__input {
+  height: 7.762vw;
+  min-height: 32px;
+  padding: 0 8px;
+  width: 133px;
+  background: #e5e5e5 0% 0% no-repeat padding-box;
+  border-radius: 5px 0 0 5px;
+  letter-spacing: 0px;
+  font-size: calc(10px + 0.521vw);
+  line-height: calc(0.521vw + 17px);
+  color: #000;
+  border: none;
+}
+.subFormItem__input_small {
+  width: calc(60px + 5.208vw);
+  border-radius: 5px 0 0 5px;
+}
+.subFormItem__inputText {
+  background: #e5e5e5 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  border-radius: 0 5px 5px 0px;
+  padding-right: 10px;
+  font: calc(10px + 0.781vw) / calc(10px + 1.198vw) Segoe UI;
+}
+.subFormItem_moreMarginBottom {
+  margin-bottom: 10.349vw;
+}
+@media only screen and (max-width: 345px) {
+  .subFormItem__input {
+    width: calc(30px + 5.208vw);
+  }
+  .settings {
+    padding: 6.727vw 4.21vw 5.175vw;
+  }
+}

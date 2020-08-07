@@ -23,8 +23,7 @@
         span.classList.add('_free');
         span.textContent = 'Free';
         const div = document.createElement('div');
-        div.appendChild(document.createElement('div'));
-        div.appendChild(document.createElement('div'));
+        div.textContent = 'L';
         div.classList.add('cross');
         boxes[i].appendChild(span);
         boxes[i].appendChild(div);

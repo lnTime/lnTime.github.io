@@ -2,6 +2,12 @@
   font-family: "Segoe UI Regular";
   src: url("../fonts/SegoeUI.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Glyphter";
+  src: url("../fonts/Glyphter.woff") format("woff");
+}
+
 * {
   box-sizing: border-box;
   font-family: "Segoe UI Regular", Arial, Helvetica, sans-serif;

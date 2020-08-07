@@ -1,0 +1,84 @@
+.import {
+  font: Bold calc(20px + 1.042vw) / calc(1.532vw + 20px) Segoe UI;
+  text-align: center;
+}
+.import__heading {
+  font: Bold calc(20px + 1.042vw) / calc(1.532vw + 20px) Segoe UI;
+  text-align: center;
+}
+.x,
+.y {
+  height: 2px;
+  width: 11px;
+  left: 7px;
+  background: white;
+  position: absolute;
+  border-radius: 5px;
+}
+.x {
+  transform: rotate(45deg);
+}
+.y {
+  transform: rotate(-45deg);
+}
+.closeIconSub {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  background: #2873eb 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.import {
+  position: relative;
+  margin: 4.14vw 14.36vw 10.479vw 11.125vw;
+  padding: 6.727vw 6.21vw 5.175vw;
+  width: 74.515vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 1px 0px 30px rgb(0 0 0 / 20%);
+  border-radius: 16px;
+}
+.select__select {
+  width: 100%;
+  margin-top:3.752vw;
+}
+.cancel,
+.importButton {
+  width: 25.744vw;
+  height: 7.762vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  font-size: calc(10px + 0.521vw);
+  font-weight: bolder;
+}
+.importButton {
+  background: #2873eb;
+  color: white;
+  border: none;
+}
+.cancelSavebuttonsWrapper {
+  width: 53.687vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 17px;
+}
+.boldSpan {
+  font: Bold calc(10px + 0.781vw) / calc(10px + 1.198vw) Segoe UI;
+  margin-right: 1.682vw;
+}
+.iconSpanWrapper {
+  padding-top: 3.752vw;
+  padding-bottom: 11.772vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

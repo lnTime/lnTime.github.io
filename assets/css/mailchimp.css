@@ -1,0 +1,114 @@
+.black-background {
+    background: #23282d;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.content {
+  flex-direction: column;
+  display: flex;
+  height: auto;
+  padding: 45px 5.417vw 45px 5.417vw;
+  background: white;
+  margin-left: 7.031vw;
+  margin-top: 1.719vw;
+  height: auto;
+}
+
+.form__subTitle {
+    font: Bold calc(10px + 0.781vw)/calc(13px + 1.042vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #000;
+    padding-bottom: 0.938vw;
+}
+
+.form__button {
+    font: Bold calc(10px + 0.4vw)/calc(10px + 0.729vw) Segoe UI;
+    letter-spacing: 0px;
+    color: #FFF;
+    padding: 10px 1.927vw; 
+    border: none;
+    background: #2873EB 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin-top: 2.188vw;
+    width: calc(118px + 5.208vw);
+    height: 60px;
+}
+
+.formStatus {
+    display: flex;
+}
+
+.text {
+    letter-spacing: 0px;    
+    font-size: calc(10px + 0.521vw);
+    line-height: calc(17px + 0.521vw);
+}
+
+.formStatus_status {
+    color: #000;
+}
+
+.formStatus_notConnected {
+    color: #CC0000;
+    margin-left: 0.885vw;
+}
+
+.formStatus_conacted {
+    color: #00AE5D;
+    margin-left: 3.490vw;
+}
+
+.disabledButton {
+    margin-top: 0;
+}
+
+.form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.heading {
+    padding-bottom: 2.188vw;
+}
+
+.apiKey {
+    display: flex;
+    margin: 1.458vw 0;
+}
+
+.apiKeyInput__input {
+    color: rgba(0, 0, 0, 0.59);
+    padding: 15px 14px;
+    width: calc(105px + 20.833vw);
+    background: #F1F1F1 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.apiKeyInput {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.021vw;
+}
+
+.apiKey__href {
+    color: #2873EB;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox-wrapper {
+    margin-left: 1.302vw;
+}
+
+.disabledButton {
+    margin-top: 8.281vw;
+}

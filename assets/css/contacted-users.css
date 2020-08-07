@@ -26,7 +26,9 @@
     color: #000;
     margin-bottom: 20px;
 }
-
+.pagination{
+    padding: 25px 75px;
+}
 .select {
     display: flex;
 }
@@ -51,7 +53,10 @@
     margin: 0;
     border-radius: 5px;
 }
-
+.buttonGroup__button_black{
+    background: white;
+    border: 2px solid #000000;
+}
 
 .table__data:first-child,
 .table__head:first-child,
@@ -64,28 +69,30 @@
 
 .table__data:nth-child(3),
 .table__head:nth-child(3) {
-    width: 250px;
+    width: 300px;
 }
 
 .table__data:nth-child(4),
 .table__head:nth-child(4) {
-    width: 160px;
+    width: 200px;
 }
 
 .table__data:nth-child(5),
 .table__head:nth-child(5) {
-    width: 120px;
+    width: 200px;
 }
 
 .table__data:nth-child(6),
 .table__head:nth-child(6) {
-    width: 180px;
+    width: 300px;
 }
 
 .table__data:nth-child(7),
 .table__head:nth-child(7) {
     width: 85px;
     justify-content: center;
+    margin-left: auto;
+    margin-right: 45px;
 }
 
 .table__row {

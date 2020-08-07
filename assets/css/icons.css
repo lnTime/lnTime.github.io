@@ -18,13 +18,18 @@
   justify-content: center;
   border-radius: 50%;
   background: #b5caec;
+  font-family: "Glyphter", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #2873EB;
 }
 .icons_pink {
   background: #ffcece;
+  color: #C12121;
 }
 .icons_gray {
   background: #c7c7c7;
   position: relative;
+  color: #000;
 }
 
 .icons_gray > img {
@@ -154,21 +159,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.cross > div {
-  width: 6px;
-  height: 28px;
-  background-color: #2873EB;
-}
-
-.cross > div:first-child {
-  position: absolute;
-  top: 17px;
-}
-
-.cross > div:last-child {
-  position: absolute;
-  transform: rotate(90deg);
+  font-family: "Glyphter", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #2873EB;
 }
 
