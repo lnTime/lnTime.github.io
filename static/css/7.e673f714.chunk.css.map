@@ -1,0 +1,1 @@
+{"version":3,"sources":["VendorForm.module.scss"],"names":[],"mappings":"AAAA,kCACI,eAAgB,CAChB,UAAW,CACX,sBAAwB","file":"7.e673f714.chunk.css","sourcesContent":[".AddDriver-Form {\r\n    min-width: 159px;\r\n    width: 100%;\r\n    padding: 1.615vw 0.938vw;\r\n  }\r\n"]}
